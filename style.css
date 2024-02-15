@@ -1,0 +1,39 @@
+.card{
+    padding: 20px;
+}
+.input-group{
+    padding: 10px;
+    width: 30em;
+}
+
+.input-group1{
+    padding: 10px;
+    width: 40em;
+}
+
+.star-rating {
+    font-size: 30px;
+  }
+  .star-rating input[type="radio"] {
+    display: none;
+  }
+  .star-rating label {
+    display: inline-block;
+    cursor: pointer;
+  }
+  .star-rating label:before {
+    content: "\2605";
+    margin: 5px;
+    color: #ccc;
+  }
+  .star-rating input[type="radio"]:checked ~ label:before {
+    color: #ffc107;
+}
+
+.satisfied{
+    padding: 10px;
+}
+
+.buyAgain{
+    padding: 10px;
+}
